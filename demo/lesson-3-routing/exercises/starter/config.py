@@ -20,6 +20,7 @@ class Config:
     # OpenAI settings
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
     OPENAI_MODEL = "gpt-4o"  # the newest OpenAI model is "gpt-4o" which was released May 13, 2024
+    BASE_URL = "https://openai.vocareum.com/v1"
     
     # SWIFT validation settings
     SWIFT_STANDARDS = {
